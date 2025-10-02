@@ -1,0 +1,12 @@
+# BigQuery Migration Helper - Python Dependencies
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: If you want to manage Google Cloud dependencies via pip
+# google-cloud-bigquery>=3.4.0
+# google-cloud-storage>=2.7.0
+
+# Optional: If you want to manage AWS dependencies via pip  
+# boto3>=1.26.0
+# awscli>=1.27.0

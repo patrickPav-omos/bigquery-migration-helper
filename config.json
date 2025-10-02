@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "local_bucket_dir": "./bucket",
+    "fixed_bucket_dir": "./bucket_fixed",
+    "schemas_dir": "./schemas"
+  },
+  "csv": {
+    "default_delimiter": ";",
+    "file_format": "CSV",
+    "skip_leading_rows": "1",
+    "write_disposition": "WRITE_TRUNCATE"
+  },
+  "transfer": {
+    "schedule": "every day 00:30",
+    "add_test_suffix": true
+  }
+}
